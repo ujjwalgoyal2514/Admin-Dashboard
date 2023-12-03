@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fefefe;
+}
+
+.dashboard {
+    border: 1px solid #ddd; /* Add a border around the dashboard */
+    padding: 20px;
+    background-color: #4e4848;
+    color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

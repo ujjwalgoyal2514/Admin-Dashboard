@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header -->
+        <div class="header">
+            <h1>Admin Dashboard</h1>
+            <!-- Search Bar -->
+            <input type="text" placeholder="Search..." class="search-bar">
+            <button class="search-icon">Search</button>
+        </div>
+
+        <!-- Table -->
+        <table>
+            <!-- Table Headers -->
+            <thead>
+                <tr>
+                    <th><input type="checkbox" class="select-all"></th>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <!-- Table Body -->
+            <tbody id="table-body">
+                <!-- Table rows will be dynamically added here using JavaScript -->
+            </tbody>
+        </table>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="first-page">First</button>
+            <button class="previous-page">Previous</button>
+            <span class="page-numbers"></span>
+            <button class="next-page">Next</button>
+            <button class="last-page">Last</button>
+        </div>
+
+        <!-- Bulk Delete -->
+        <button class="bulk-delete">Delete Selected</button>
+    </div>
+
+    <script src="style.js"></script>
+</body>
+</html>
